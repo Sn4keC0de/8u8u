@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/wallpaper-test.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    background-color: #191B37;
+    text-align: center;
+    height: 70px;
+}
+
+.title h1 {
+    color: #ffffff;
+    font-size: 3em;
+    line-height: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+    width: 60%;
+    height: 100em;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #ffc4c44f;
+    backdrop-filter: blur(15px);
+}
+
+.mensaje {
+    height: 150px;
+    width: 100%;
+    background-color: #C74777;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.msg-content {
+    justify-content: center;
+    height: 85%;
+}
+
+audio {
+    height: 50px;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.img-container {
+    position: relative;
+    margin-bottom: 0;
+}
+
+img {
+    left: -32px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 55px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-left: 1.8rem;
+}
+
+.left {
+    float : left;
+}
+
+.right {
+    float : right;
+}
+
+footer {
+    background-color: #191B37;
+}
+
+.code-box {
+    padding: 10px;
+    background-color: rgba(163, 128, 196, 0.3);
+    text-align: center;
+}
+
+.code-box h6 {
+    color: #ffffff;
+}
+
+#code {
+    /* font-size: 30px; */
+    color: #ffffff;
+}
+
+#code:hover {
+    text-shadow: 0px 0px 7px rgb(255, 0, 255);
+    color: #C74777;
+}
+
+#code:active {
+    color: aqua;
+}
