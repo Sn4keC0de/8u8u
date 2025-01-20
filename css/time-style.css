@@ -54,3 +54,28 @@ span {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+
+/* ////////////////////////////// */
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+    
+    .countdown {
+        width: 20% !important;
+        gap: 40px;
+    }
+
+    p {
+        width: 200px;
+        height: 200px;
+        font-size: 6rem;
+        border-width: 2px;
+    }
+
+    span {
+        font-size: 3rem;
+    }
+
+}

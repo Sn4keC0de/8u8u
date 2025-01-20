@@ -28,7 +28,6 @@ body {
 }
 
 .main-container {
-    /* width: 60%; */
     height: 100%;
     margin: 0 auto;
     padding-top: 40px;
@@ -86,7 +85,7 @@ p {
 }
 
 h5 {
-    font-weight: 650;
+    font-weight: 700;
     margin-bottom: 0% !important;
     font-size: 20px;
     margin-left: 1.8rem;
@@ -141,5 +140,34 @@ footer {
 
     h6, h4 {
         margin-bottom: 0 !important;
+    }
+
+    .main-container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .mensaje {
+        width: 100%;
+    }
+
+    .msg-content p {
+        font-size: 1.3rem;
+    }
+
+    .row {
+        margin-bottom: 100px;
+    }
+
+    .custom-audio-player { 
+        max-width: 100% !important;
+    }
+
+    .volume-slider {
+        display: none;
+    }
+
+    .time {
+        width: 55px !important;
     }
 }
