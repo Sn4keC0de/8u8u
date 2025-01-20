@@ -14,7 +14,7 @@ body {
 }
 
 .title {
-    background-color: #191B37;
+    background-color: #FFF5E4;
     text-align: center;
     height: 70px;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .main-container {
-    width: 60%;
+    /* width: 60%; */
     height: 100%;
     margin: 0 auto;
     padding-top: 40px;
@@ -36,13 +36,13 @@ body {
     padding-right: 100px;
     padding-bottom: 1px !important;
     background-color: #ffc4c44f;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
 }
 
 .mensaje {
-    min-height: 150px;
+    min-height: 80px;
     width: 450px;
-    background-color: #C74777;
+    background-color: #EFADB6;
     border-radius: 10px;
     padding: 10px;
     padding-bottom: 0px !important;
@@ -58,7 +58,6 @@ body {
 }
 
 audio {
-    position: absolute;
     width: 100%;
     height: 50px;
 }
@@ -78,15 +77,16 @@ p {
     margin-bottom: 0;
 }
 
-img {
+.pf-img {
     left: -32px;
     border-radius: 50%;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     position: absolute;
     width: 55px;
 }
 
 h5 {
+    font-weight: 650;
     margin-bottom: 0% !important;
     font-size: 20px;
     margin-left: 1.8rem;
@@ -126,3 +126,4 @@ footer {
 #code:active {
     color: aqua;
 }
+
