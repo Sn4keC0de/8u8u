@@ -127,3 +127,19 @@ footer {
     color: aqua;
 }
 
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    .code-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    h6, h4 {
+        margin-bottom: 0 !important;
+    }
+}
