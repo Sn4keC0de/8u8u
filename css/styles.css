@@ -130,6 +130,11 @@ footer {
 /* Responsive */
 
 @media screen and (max-width: 768px) {
+
+    .title h1{
+        font-size: 1.7rem;
+    }
+
     .code-box {
         display: flex;
         flex-direction: row;
@@ -156,7 +161,7 @@ footer {
     }
 
     .row {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
 
     .custom-audio-player { 
