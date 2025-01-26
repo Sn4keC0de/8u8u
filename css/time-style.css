@@ -25,12 +25,16 @@ body {
     justify-content: space-evenly;
     width: 50%;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
-.contdown div {
-    display: grid;
+.countdown div {
+    display: flex;
+    flex-direction: column;
     place-items: center;
-    padding: 10px;
+
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -46,13 +50,8 @@ p {
     background-color: blueviolet;
 }
 
-span {
-    display: block;
+.timeCode {
     padding: 10px;
-    text-align: center;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 400;
 }
 
 
@@ -68,7 +67,7 @@ span {
 
     .countdown {
         margin-top: 30px;
-        gap: 10px;
+        gap: 20px;
     }
 
     p {

@@ -131,6 +131,11 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+    body {
+        background-image: url("../img/mobile-back.jpg");
+        background-size: contain;
+    }
+
     .title h1{
         font-size: 1.7rem;
     }
@@ -150,6 +155,7 @@ footer {
     .main-container {
         padding-left: 35px;
         padding-right: 35px;
+        backdrop-filter: blur(1.5px);
     }
 
     .mensaje {
