@@ -94,7 +94,13 @@ p {
 }
 
 .zoom-ico {
-    transform: scale(1.7);
+    position: absolute !important;
+    transform: scale(1.7) translate(0, 4px);
+}
+
+.berna-ico {
+    position: absolute !important;
+    transform: scale(1.5) translate(0, 2px);
 }
 
 h5 {
