@@ -103,6 +103,11 @@ p {
     transform: scale(1.5) translate(0, 2px);
 }
 
+.atlas-ico {
+    position: absolute !important;
+    transform: scale(1.5) translate(0, 8px);
+}
+
 h5 {
     font-weight: 700;
     margin-bottom: 0% !important;
